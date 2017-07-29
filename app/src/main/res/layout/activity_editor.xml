@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.letsbunk.android.letsbunk.EditorActivity">
+
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/CategoryStyle"
+            android:text="@string/subject_name"
+            android:id="@+id/textView"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/subject_name"
+            android:id="@+id/edit_name"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/padding_editor">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/CategoryStyle"
+            android:text="@string/classes_attended"
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            style="@style/EditorFieldStyle"
+            android:inputType="number"
+            android:hint="@string/attended"
+            android:id="@+id/edit_attended"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/padding_editor">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/CategoryStyle"
+            android:text="@string/classes_bunked"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            style="@style/EditorFieldStyle"
+            android:inputType="number"
+            android:id="@+id/edit_bunked"
+            android:hint="@string/bunked"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/padding_editor">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/CategoryStyle"
+            android:text="@string/minimum"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                style="@style/EditorFieldStyle"
+                android:gravity="right"
+                android:inputType="number"
+                android:id="@+id/required"
+                android:hint="@string/percentage"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="32sp"
+                android:text="%"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id"
+        android:id="@+id/editor_adView" />
+
+
+</LinearLayout>

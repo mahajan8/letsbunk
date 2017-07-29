@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bunks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.letsbunk.android.letsbunk.BunksActivity">
+
+        <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="16dp"
+        android:text="@string/no_subjects"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/bunks_adView" />
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_margin="@dimen/padding_editor"
+            android:layout_above="@id/bunks_adView"
+            android:layout_alignParentRight="true"
+
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:id="@+id/fab" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bunks_adView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id"/>
+
+
+</RelativeLayout>

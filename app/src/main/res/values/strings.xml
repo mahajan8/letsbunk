@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Let\'s Bunk</string>
+
+    <string name="subject_name">Subject Name</string>
+    <string name="classes_attended">Classes Attended</string>
+    <string name="classes_bunked">Classes Bunked</string>
+    <string name="minimum">Minimum Attendance</string>
+
+    <string name="attended">Attended</string>
+    <string name="bunked">Bunked</string>
+    <string name="percentage">Percentage</string>
+
+    <string name="no_subjects">No Subjects Added.</string>
+    <string name="action_delete_all_entries">Delete All</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="attendance">Attendance : </string>
+
+    <string name="delete_dialog_msg">Delete this Subject?</string>
+
+    <string name="delete_all_dialog">Are you sure you want to Delete all Subjects?</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="add_subject">Add new Subject</string>
+
+    <string name="edit_subject">Edit Subject</string>
+
+    <string name="editor_insert_subject_failed">Error Saving Subject</string>
+
+    <string name="editor_insert_subject_success">Subject Saved Successfully</string>
+
+    <string name="editor_update_subject_failed">Error Updating Subject</string>
+
+    <string name="editor_update_subject_success">Subject Updated</string>
+
+    <string name="editor_delete_subject_failed">Error deleting Subject</string>
+
+    <string name="editor_delete_subject_successful">Subject Deleted</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="all_subjects_deleted">Subjects Deleted : </string>
+
+    <string name="empty_data">Subject Data field(s) empty</string>
+
+    <string name="attend_under_three_one">Koi baat ni, bas </string>
+
+    <string name="attend_under_three_two"> classes lagani hai aur</string>
+
+    <string name="attend_under_seven_one">Laga le </string>
+
+    <string name="attend_under_seven_two"> aur class, Sab theek ho jayega</string>
+
+    <string name="attend_over_seven_one">Mat maar bunk </string>
+
+    <string name="attend_over_seven_two"> aur classes lagani hain</string>
+
+    <string name="attend_over_seventeen">Tumse naa ho payega</string>
+
+    <string name="bunk_under_three_one">Bunk </string>
+
+    <string name="bunk_under_three_two"> hi hai soch ke maar</string>
+
+    <string name="bunk_over_three_one">Jaao Jaao </string>
+
+    <string name="bunk_over_three_two"> bunk pade hain abhi</string>
+
+    <string name="bunk_over_seven">Maar aish araam se</string>
+
+    <string name="attendance_met">Attendance puri hai lekin lagale class</string>
+
+    <string name="ad_id">ca-app-pub-4613744001023553/6982934629</string>
+
+    <string name="interstitial_id">ca-app-pub-4613744001023553/5366600620</string>
+
+    <string name="unleash_evil">UNLEASH THE EVIL</string>
+
+    <string name="insta">-wellguesswho</string>
+
+    <string name="insta_me">-papa.smurf08</string>
+
+    <string name="not_added">Add bunked or attended Lectures</string>
+
+    <string name="attendance_equal">Bas 1 aur class lagale upar ho jayegi</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/list_item_layout"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#37474f">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d50000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="Mathematics"
+        android:gravity="center"
+        android:textSize="@dimen/title_text_size"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#FFF"
+        android:id="@+id/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_weight="1"
+            android:id="@+id/attendButton"
+            android:textSize="@dimen/button_text_size"
+            android:text="@string/attended" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_weight="2" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#d50000"
+                android:text="Attendance: 33.33%"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/attendance"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_weight="1"
+            android:id="@+id/bunkButton"
+            android:text="@string/bunked" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:gravity="center"
+        android:textSize="@dimen/tip_text_size"
+        android:paddingBottom="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="#d50000"
+        android:textColor="#FFF"
+        android:id="@+id/tip"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d50000"/>
+
+</LinearLayout>

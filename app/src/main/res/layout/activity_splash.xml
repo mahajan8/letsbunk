@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.letsbunk.android.letsbunk.data.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/app_opening"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="@string/unleash_evil"
+        android:textStyle="bold|italic"
+        android:textSize="36sp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#FFF"
+        android:id="@+id/username"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/insta" />
+
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:id="@+id/insta"
+        android:src="@drawable/insta"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/username"
+        android:layout_toStartOf="@+id/username" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#FFF"
+        android:text="Art"
+        android:layout_alignTop="@+id/username"
+        android:layout_toLeftOf="@+id/insta"
+        android:layout_toStartOf="@+id/insta"
+        android:id="@+id/textView4" />
+
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:id="@+id/insta_me"
+        android:src="@drawable/insta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#FFF"
+        android:id="@+id/user_me"
+        android:text="@string/insta_me"
+        android:layout_toRightOf="@+id/insta_me"
+        android:layout_toEndOf="@+id/insta_me" />
+
+</RelativeLayout>
